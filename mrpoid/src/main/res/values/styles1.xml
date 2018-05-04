@@ -1,0 +1,22 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="colorPrimary">@color/nliveo_teal_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/nliveo_teal_colorPrimaryDark</item>
+        <item name="colorAccent">@color/nliveo_teal_colorAccent</item>
+        <item name="colorControlHighlight">@color/nliveo_teal_colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+        
+    <style name="AppTheme.NoActionBar.Fullscreen" parent="AppTheme.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

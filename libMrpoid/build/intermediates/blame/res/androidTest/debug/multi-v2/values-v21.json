@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v21/values-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/bundles/debug/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "79",
+                        "endOffsets": "130"
+                    }
+                }
+            ]
+        }
+    ]
+}

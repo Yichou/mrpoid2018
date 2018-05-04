@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item name="mi_close" type="id"></item>
+    <item name="mi_scnshot" type="id"></item>
+    <item name="mi_entry_background" type="id"></item>
+    <item name="mi_switch_keypad" type="id"></item>
+    <item name="mi_scale_mode" type="id"></item>
+    <item name="mi_keypad_opacity" type="id"></item>
+	<item name="mi_tools" type="id"></item>
+    <item name="mi_float_view" type="id"></item>
+    <item name="tv_info" type="id"></item>
+    
+</resources>

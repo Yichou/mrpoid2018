@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libMrpoid/libMrpoid.iml" filepath="$PROJECT_DIR$/libMrpoid/libMrpoid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mrpoid/mrpoid.iml" filepath="$PROJECT_DIR$/mrpoid/mrpoid.iml" />
+    </modules>
+  </component>
+</project>

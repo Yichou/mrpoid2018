@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidemu="http://androidemu.com/apk/res/android" >
+
+    <Preference
+        android:key="setupWizard"
+        android:summary="@string/setup_wizard_sum"
+        android:title="@string/setup_wizard" />
+    <Preference
+        android:key="version"
+        android:summary="@string/version_summery"
+        android:title="@string/version" >
+    </Preference>
+    <Preference
+        android:key="restartMrpoid"
+        android:title="@string/restart_mrpoid" >
+    </Preference>
+
+    <PreferenceScreen android:title="@string/emu_settings" >
+        <ListPreference
+            android:defaultValue="emu0"
+            android:entries="@array/emu_entries"
+            android:entryValues="@array/emu_entry_values"
+            android:key="emu"
+            android:title="@string/emu_title" />
+
+        <PreferenceCategory android:title="@string/usefull_set" >
+            <ListPreference
+                android:defaultValue="@string/def_screensize"
+                android:entries="@array/screensize_entries"
+                android:entryValues="@array/screensize_entries"
+                android:key="screensize"
+                android:summary="@string/screensize_summery"
+                android:title="@string/screensize" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="enableExram"
+                android:summary="@string/enable_exram_sum"
+                android:title="@string/enable_exram" />
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="limitInputLength"
+                android:summary="@string/limit_input_length_sum"
+                android:title="@string/limit_input_length" />
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="useFullDsm"
+                android:summary="@string/use_full_dsm_sum"
+                android:title="@string/use_full_dsm" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/detail_set" >
+            <PreferenceScreen android:title="@string/video_settings" >
+                <ListPreference
+                    android:defaultValue="stretch"
+                    android:entries="@array/scaling_mode_entries"
+                    android:entryValues="@array/scaling_mode_entryvalues"
+                    android:key="scalingMode"
+                    android:summary="@string/scaling_mode_summery"
+                    android:title="@string/scaling_mode" />
+
+                <CheckBoxPreference
+                    android:defaultValue="false"
+                    android:key="platdrawchar"
+                    android:summary="@string/platdrawchar_summery"
+                    android:title="@string/platdrawchar" />
+                <CheckBoxPreference
+                    android:defaultValue="true"
+                    android:key="enableAntiAtial"
+                    android:summary="@string/enableAntiAtial_summery"
+                    android:title="@string/enableAntiAtial" />
+                <CheckBoxPreference
+                    android:defaultValue="true"
+                    android:key="showStatusBar"
+                    android:title="@string/show_statusbar" />
+                <CheckBoxPreference
+                    android:defaultValue="false"
+                    android:key="showMemInfo"
+                    android:title="@string/show_mem_info" />
+            </PreferenceScreen>
+            <PreferenceScreen android:title="@string/input_settings" >
+                <CheckBoxPreference
+                    android:defaultValue="false"
+                    android:key="fullScnEditor"
+                    android:title="@string/fullscn_editor" />
+                <CheckBoxPreference
+                    android:defaultValue="true"
+                    android:key="catchVolumekey"
+                    android:summary="@string/catch_volumekey_sum"
+                    android:title="@string/catch_volumekey" />
+                <CheckBoxPreference
+                    android:defaultValue="false"
+                    android:key="dpadAtLeft"
+                    android:title="@string/dpad_at_left" />
+                <CheckBoxPreference
+                    android:defaultValue="false"
+                    android:key="noKey"
+                    android:summary="@string/no_key_sum"
+                    android:title="@string/no_key" />
+                <CheckBoxPreference
+                    android:defaultValue="true"
+                    android:key="enableKeyVirb"
+                    android:title="@string/enable_touch_virb" />
+
+                <Preference
+                    android:key="keypadLayout"
+                    android:title="@string/keypad_layout" />
+            </PreferenceScreen>
+            <PreferenceScreen
+                android:key="advanced"
+                android:title="@string/other_settings" >
+                <PreferenceCategory android:title="@string/title_paths" >
+                    <CheckBoxPreference
+                        android:defaultValue="false"
+                        android:disableDependentsState="true"
+                        android:key="usePrivateDir"
+                        android:summary="@string/private_dir_sum"
+                        android:title="@string/private_dir" />
+                    <CheckBoxPreference
+                        android:defaultValue="true"
+                        android:key="runUnderMultiPath"
+                        android:summary="@string/run_under_multi_path_sum"
+                        android:title="@string/run_under_multi_path" />
+
+                    <com.mrpoid.view.PathPreference
+                        android:dependency="usePrivateDir"
+                        android:key="sdpath"
+                        android:title="@string/sdpath" />
+                    <com.mrpoid.view.PathPreference
+                        android:dependency="usePrivateDir"
+                        android:key="mythroadPath"
+                        android:title="@string/mythroad_path" />
+                </PreferenceCategory>
+                <PreferenceCategory android:title="@string/title_memory" >
+                    <ListPreference
+                        android:defaultValue="2"
+                        android:entries="@array/memsize_entries"
+                        android:entryValues="@array/memsize_entryvalues"
+                        android:key="memSize"
+                        android:title="@string/mem_size" />
+                </PreferenceCategory>
+                <PreferenceCategory android:title="@string/log_settings" >
+                    <CheckBoxPreference
+                        android:defaultValue="false"
+                        android:key="enableApilog"
+                        android:summary="@string/show_log_sum"
+                        android:title="@string/show_log" />
+
+                    <PreferenceScreen
+                        android:dependency="enableApilog"
+                        android:summary="@string/log_filter_sum"
+                        android:title="@string/log_filter" >
+                        <CheckBoxPreference
+                            android:defaultValue="false"
+                            android:key="enable_log_input"
+                            android:title="@string/log_input" />
+                        <CheckBoxPreference
+                            android:defaultValue="false"
+                            android:key="enable_log_file"
+                            android:title="@string/log_file" />
+                        <CheckBoxPreference
+                            android:defaultValue="false"
+                            android:key="enable_log_net"
+                            android:title="@string/log_net" />
+                        <CheckBoxPreference
+                            android:defaultValue="false"
+                            android:key="enable_log_mrplat"
+                            android:title="@string/log_mrplat" />
+                        <CheckBoxPreference
+                            android:defaultValue="false"
+                            android:key="enable_log_timer"
+                            android:title="@string/log_timer" />
+                        <CheckBoxPreference
+                            android:defaultValue="false"
+                            android:key="enable_log_fw"
+                            android:title="@string/log_fw" />
+                        <CheckBoxPreference
+                            android:defaultValue="false"
+                            android:key="enable_log_mrprintf"
+                            android:title="@string/log_mrprintf" />
+                    </PreferenceScreen>
+                </PreferenceCategory>
+            </PreferenceScreen>
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+</PreferenceScreen>

@@ -1,0 +1,4 @@
+#Thu May 03 22:20:43 CST 2018
+base.0=/Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/build/intermediates/transforms/dexMerger/debug/45
+path.0=classes.dex
+renamed.0=classes.dex

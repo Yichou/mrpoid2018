@@ -1,0 +1,47 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '27.0.3'
+
+    defaultConfig {
+        minSdkVersion 17
+        targetSdkVersion 26
+
+        ndk {
+            // Specifies the ABI configurations of your native
+            // libraries Gradle should build and package with your APK.
+            abiFilters 'x86', 'armeabi-v7a'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    // Encapsulates your external native build configurations.
+    externalNativeBuild {
+
+        // Encapsulates your CMake build configurations.
+        cmake {
+
+            // Provides a relative path to your CMake build script.
+           // path "src/main/jni/CMakeLists.txt"
+        }
+
+        ndkBuild {
+            path 'src/main/jni/Android.mk'
+        }
+
+
+    }
+
+
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:22.+'
+}

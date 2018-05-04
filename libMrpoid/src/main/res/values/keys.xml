@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="key_titles">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >5</item>
+        <item >6</item>
+        <item >7</item>
+        <item >8</item>
+        <item >9</item>
+        <item >*</item>
+        <item >#</item>
+        <item >上</item>
+        <item >下</item>
+        <item >左</item>
+        <item >右</item>
+        <item >挂机</item>
+        <item >左软</item>
+        <item >右软</item>
+        <item >接听</item>
+        <item >ok</item>
+    </string-array>
+</resources>

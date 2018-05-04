@@ -1,0 +1,452 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:2:1-111:12
+INJECTED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:2:1-111:12
+INJECTED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:2:1-111:12
+INJECTED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:2:1-111:12
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-163:12
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/yichou-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/5fe2a4997a2ee959687af3eb45654c2f/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/yichou-mac/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/75d86b348bc070b4e38f360d57f1997f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/yichou-mac/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/b7e9e17a5d3cf562f76f3bfb4bb4f7af/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:23.4.0] /Users/yichou-mac/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/1c9e18b0de8584e6b89b34e96022c4b6/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:2:1-111:12
+INJECTED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:2:1-111:12
+INJECTED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:2:1-111:12
+	package
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:3:5-34
+		INJECTED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml
+		INJECTED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:6:5-39
+	android:versionName
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:7:5-30
+		INJECTED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml
+		INJECTED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:5:5-51
+	xmlns:android
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:4:5-31
+		INJECTED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml
+		INJECTED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:11:5-67
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-67
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:12:5-79
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-79
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:14:5-84
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:22:5-84
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:22:5-84
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:14:22-81
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:16:5-80
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:5-80
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:5-80
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:16:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:17:5-81
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:21:5-81
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:17:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:18:5-75
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:19:5-75
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:18:22-72
+uses-permission#android.permission.READ_APN_SETTINGS
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:19:5-76
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:5-76
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:19:22-73
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:20:5-66
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:32:5-66
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:32:5-66
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:20:22-63
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:37:5-76
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-76
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:37:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:40:5-68
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:34:5-68
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:34:5-68
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:40:22-65
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:41:5-79
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:35:5-79
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:35:5-79
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:41:22-76
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:44:5-85
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:44:22-82
+uses-permission#com.android.launcher.permission.WRITE_SETTINGS
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:45:5-86
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:45:22-83
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:46:5-88
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:46:22-85
+uses-permission#com.android.launcher.permission.UNINSTALL_SHORTCUT
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:47:5-90
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:47:22-87
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:52:5-81
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:52:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:53:5-79
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:53:22-76
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:57:5-68
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:33:5-68
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:33:5-68
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:57:22-65
+application
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:59:5-109:19
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:37:5-161:19
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:37:5-161:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/yichou-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/5fe2a4997a2ee959687af3eb45654c2f/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/yichou-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/5fe2a4997a2ee959687af3eb45654c2f/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/yichou-mac/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/75d86b348bc070b4e38f360d57f1997f/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/yichou-mac/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/75d86b348bc070b4e38f360d57f1997f/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/yichou-mac/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/b7e9e17a5d3cf562f76f3bfb4bb4f7af/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/yichou-mac/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/b7e9e17a5d3cf562f76f3bfb4bb4f7af/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/yichou-mac/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/1c9e18b0de8584e6b89b34e96022c4b6/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/yichou-mac/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/1c9e18b0de8584e6b89b34e96022c4b6/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:65:9-41
+	tools:overrideLibrary
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:64:9-43
+	android:icon
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:63:9-45
+	android:allowBackup
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:62:9-35
+	android:theme
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:66:9-40
+	tools:replace
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:60:9-37
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:61:9-60
+activity#com.mrpoid.mrplist.app.WelcomeActivity
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:67:9-76:20
+	android:label
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:69:13-45
+	android:theme
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:70:13-63
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:68:13-66
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:71:13-75:29
+action#android.intent.action.MAIN
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:72:17-69
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:72:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:74:17-77
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:74:27-74
+activity#com.mrpoid.mrplist.app.HomeActivity
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:77:9-81:20
+	android:label
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:80:13-45
+	android:configChanges
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:79:13-74
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:78:13-63
+activity#com.mrpoid.mrplist.app.BrowserActivity
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:82:9-89:20
+	android:label
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:87:13-49
+	android:excludeFromRecents
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:86:13-47
+	android:configChanges
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:85:13-74
+	android:allowTaskReparenting
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:84:13-48
+	android:taskAffinity
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:88:13-50
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:83:13-66
+activity#com.mrpoid.mrplist.app.FileManagerActivity
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:90:9-94:20
+	android:label
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:93:13-45
+	android:configChanges
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:92:13-74
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:91:13-70
+meta-data#UMENG_APPKEY
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:96:9-98:56
+	android:value
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:98:13-53
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:97:13-40
+meta-data#UMENG_CHANNEL
+ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:99:9-101:37
+	android:value
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:101:13-34
+	android:name
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml:100:13-41
+uses-sdk
+INJECTED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml
+INJECTED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/yichou-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/5fe2a4997a2ee959687af3eb45654c2f/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/yichou-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/5fe2a4997a2ee959687af3eb45654c2f/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/yichou-mac/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/75d86b348bc070b4e38f360d57f1997f/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/yichou-mac/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/75d86b348bc070b4e38f360d57f1997f/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/yichou-mac/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/b7e9e17a5d3cf562f76f3bfb4bb4f7af/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/yichou-mac/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/b7e9e17a5d3cf562f76f3bfb4bb4f7af/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/yichou-mac/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/1c9e18b0de8584e6b89b34e96022c4b6/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/yichou-mac/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/1c9e18b0de8584e6b89b34e96022c4b6/AndroidManifest.xml:20:5-43
+INJECTED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml
+INJECTED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] /Users/yichou-mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/5fe2a4997a2ee959687af3eb45654c2f/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml
+		INJECTED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml
+		ADDED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml
+		INJECTED from /Users/yichou-mac/AndroidStudioProjects/MyApplication/mrpoid/src/main/AndroidManifest.xml
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:5-84
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:22-81
+uses-permission#android.permission.READ_SMS
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:22-64
+uses-permission#android.permission.WRITE_SMS
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:5-68
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:22-65
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:27:5-70
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:27:22-67
+uses-permission#android.permission.SEND_SMS
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:28:5-67
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:28:22-64
+uses-permission#android.permission.CALL_PHONE
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:29:5-69
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:29:22-66
+service#com.mrpoid.app.EmulatorService
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:42:9-44:40
+	android:exported
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:43:13-58
+receiver#com.mrpoid.app.EmulatorReceiver
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:46:9-49:20
+	android:exported
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:47:13-59
+activity#com.mrpoid.app.EmulatorActivity
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:51:9-55:20
+	android:configChanges
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:53:13-57
+	android:theme
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:54:13-51
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:52:13-59
+activity#com.mrpoid.app.HelpActivity
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:56:9-59:20
+	android:theme
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:58:13-51
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:57:13-55
+activity#com.mrpoid.game.keypad.KeypadEditActivity
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:60:9-63:20
+	android:theme
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:62:13-51
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:61:13-69
+activity#com.mrpoid.app.MrpoidSettingsActivity
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:64:9-68:20
+	android:label
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:66:13-45
+	android:theme
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:67:13-51
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:65:13-65
+activity#com.mrpoid.game.keysprite.KeySpriteEditorActivity
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:69:9-73:20
+	android:label
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:71:13-45
+	android:theme
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:72:13-51
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:70:13-77
+activity#com.mrpoid.app.ExternActivity
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:74:9-88:20
+	android:multiprocess
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:79:13-40
+	android:launchMode
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:78:13-42
+	android:exported
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:77:13-36
+	android:configChanges
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:76:13-57
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:75:13-57
+intent-filter#android.intent.action.EDIT+android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:80:13-87:29
+action#android.intent.action.VIEW
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:81:17-69
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:81:25-66
+action#android.intent.action.EDIT
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:82:17-69
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:82:25-66
+category#android.intent.category.DEFAULT
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:84:17-76
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:84:27-73
+data
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:86:17-60
+	android:mimeType
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:86:23-57
+activity#com.mrpoid.apps.AppActivity0
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:91:9-98:54
+	android:process
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:96:13-36
+	android:label
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:95:13-40
+	android:configChanges
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:94:13-57
+	android:allowTaskReparenting
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:93:13-48
+	android:theme
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:98:13-51
+	android:taskAffinity
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:97:13-56
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:92:13-56
+service#com.mrpoid.apps.AppService0
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:100:9-102:39
+	android:process
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:102:13-36
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:101:13-55
+activity#com.mrpoid.apps.AppActivity1
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:105:9-112:54
+	android:process
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:110:13-36
+	android:label
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:109:13-40
+	android:configChanges
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:108:13-57
+	android:allowTaskReparenting
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:107:13-48
+	android:theme
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:112:13-51
+	android:taskAffinity
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:111:13-56
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:106:13-56
+service#com.mrpoid.apps.AppService1
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:114:9-116:39
+	android:process
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:116:13-36
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:115:13-55
+activity#com.mrpoid.apps.AppActivity2
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:119:9-126:54
+	android:process
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:124:13-36
+	android:label
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:123:13-40
+	android:configChanges
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:122:13-57
+	android:allowTaskReparenting
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:121:13-48
+	android:theme
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:126:13-51
+	android:taskAffinity
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:125:13-56
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:120:13-56
+service#com.mrpoid.apps.AppService2
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:128:9-130:39
+	android:process
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:130:13-36
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:129:13-55
+activity#com.mrpoid.apps.AppActivity3
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:133:9-140:54
+	android:process
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:138:13-36
+	android:label
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:137:13-40
+	android:configChanges
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:136:13-57
+	android:allowTaskReparenting
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:135:13-48
+	android:theme
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:140:13-51
+	android:taskAffinity
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:139:13-56
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:134:13-56
+service#com.mrpoid.apps.AppService3
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:142:9-144:39
+	android:process
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:144:13-36
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:143:13-55
+activity#com.mrpoid.apps.AppActivity4
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:147:9-154:54
+	android:process
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:152:13-36
+	android:label
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:151:13-40
+	android:configChanges
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:150:13-57
+	android:allowTaskReparenting
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:149:13-48
+	android:theme
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:154:13-51
+	android:taskAffinity
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:153:13-56
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:148:13-56
+service#com.mrpoid.apps.AppService4
+ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:156:9-158:39
+	android:process
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:158:13-36
+	android:name
+		ADDED from [:libMrpoid] /Users/yichou-mac/AndroidStudioProjects/MyApplication/libMrpoid/build/intermediates/manifests/full/debug/AndroidManifest.xml:157:13-55

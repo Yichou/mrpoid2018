@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <item type="id" name="mi_skin_color"/>
+    <item type="id" name="mi_skin_bg"/>
+    <item type="id" name="mi_option"/>
+    <item type="id" name="mi_share"/>
+    <item type="id" name="mi_remove"/>
+    <item type="id" name="mi_theme"/>
+    <item type="id" name="mi_refresh"/>
+    <item type="id" name="mi_pref"/>
+    <item type="id" name="mi_about"/>
+    <item type="id" name="mi_shequ"/>
+    <item type="id" name="mi_exit"/>
+    <item type="id" name="mi_show_dir"/>
+    <item type="id" name="mi_theme_black"/>
+    <item type="id" name="mi_theme_light"/>
+    <item type="id" name="mi_menu"></item>
+    <item type="id" name="mi_remove_from_list"></item>
+    <item type="id" name="mi_help"></item>
+    <item type="id" name="mi_group_mrplist"></item>
+    <item type="id" name="mi_show_mrpinfo"></item>
+    <item type="id" name="mi_run_mode"></item>
+    <item type="id" name="mi_add_favorite"></item>
+    <item type="id" name="mi_create_shortcut"/>
+    <item type="id" name="mi_download"/>
+</resources>

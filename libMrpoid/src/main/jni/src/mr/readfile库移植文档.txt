@@ -1,0 +1,42 @@
+移植函数：
+extern int32 mr_openForPlat(const char* filename,  uint32 mode);
+extern int32 mr_closeForPlat(int32 f);
+extern int32 mr_readForPlat(int32 f,void *p,uint32 l);
+extern int32 mr_seekForPlat(int32 f, int32 pos, int method);
+
+extern void* mr_mallocForPlat(uint32 len);
+extern void mr_freeForPlat(void* p, uint32 len);
+
+提供函数：
+/*
+从mrp中读取文件的所有内容到申请的内存中。
+使用该函数得到的内存，需要使用mr_free函数释放。
+
+ 
+
+输入:
+
+mrpname    mrp文件名
+filename     欲读取文件名
+lookfor          指出函数的操作形式:
+                    0:    读取mrp中文件的内容
+                    1:    仅仅查找mrp中是否存在该文件，并不读取
+                               文件内容
+
+ 
+
+输出:
+*filelen         当lookfor==0时返回文件内容长度
+
+ 
+
+返回:
+      非NULL         指向读取到的内容的指针，该内存需要
+                              调用者释放
+      NULL         失败
+*/
+
+void * _mrc_readFile(const char* mrpname, const char* filename, int *filelen, int lookfor);
+
+ 
+
