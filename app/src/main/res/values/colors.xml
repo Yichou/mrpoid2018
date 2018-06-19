@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <color name="app_colorPrimary">#0066CC</color>
+    <color name="app_colorPrimaryDark">#0066CC</color>
+    <color name="app_colorAccent">#80808080</color>
+
+
+    <color name="color_tea">#009688</color>
+
+    <!-- A dark Holo shade of blue -->
+    <color name="holo_blue_dark">#40f0f0f0</color>
+    <color name="transparent">#00000000</color>
+    
+    <color name="statusbar_div">#ff029acc</color>
+    <color name="statusbar_bg">#10000000</color>
+
+    <!-- The default background color -->
+    <color name="default_background">@android:color/white</color>
+
+    <!-- A black color with some transparency -->
+    <color name="black_transparent">#99000000</color>
+    <!-- A derivated blue from @android:color/holo_blue_light with some transparency -->
+    <color name="blue_transparent">#9933b5e5</color>
+
+    <!-- Disk usage total color -->
+    <color name="disk_usage_total">#7ecccccc</color>
+    <!-- Disk usage used color -->
+    <color name="disk_usage_used">#7e0099cc</color>
+    <!-- Disk usage used color warning -->
+    <color name="disk_usage_used_warning">#7eff4444</color>
+    <!-- Disk usage used color filter normal -->
+    <color name="disk_usage_color_filter_normal">#ffffffff</color>
+    <!-- Disk usage used color filter warning -->
+    <color name="disk_usage_color_filter_warning">#99ff0000</color>
+
+    <!-- Relevance * Border color -->
+    <color name="relevance_border">#becccccc</color>
+    <!-- Relevance *  0% ~ 50% -->
+    <color name="relevance_percentil_25">#bee89338</color>
+    <!-- Relevance * 25% ~ 50% -->
+    <color name="relevance_percentil_50">#bee8e238</color>
+    <!-- Relevance * 50% ~ 75% -->
+    <color name="relevance_percentil_75">#be45bc6c</color>
+    <!-- Relevance * 75% ~ 100% -->
+    <color name="relevance_percentil_100">#be207da4</color>
+
+    <!-- A color for highlight text -->
+    <color name="search_highlight">#ffffff00</color>
+
+    <!-- Divider. Normal -->
+    <color name="divider_color">#90909090</color>
+    <!-- Divider. Light -->
+    <color name="divider_color_light">#50505050</color>
+
+    <!-- Execution console -->
+    <color name="console_bg">#99000000</color>
+    <color name="console_fg">#99FFFFFF</color>
+
+</resources>

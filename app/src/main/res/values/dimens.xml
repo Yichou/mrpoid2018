@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- The default row height -->
+    <dimen name="default_row_height">48dp</dimen>
+    <dimen name="toobar_height">48dp</dimen>
+
+    <!-- The default buttom width -->
+    <dimen name="default_buttom_width">56dp</dimen>
+
+    <dimen name="dp1">1dp</dimen>
+
+    <dimen name="default_padding">9dp</dimen>
+
+</resources>
