@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mrpoid</string>
+    <string name="settings">Settings</string>
+    <string name="close">Close</string>
+    <string name="other">Others</string>
+    <string name="usefull_set">Common Settings</string>
+    <string name="detail_set">Details Settings</string>
+    <string name="keypad_layout">Keypad Layout</string>
+    <string name="option">Options</string>
+    <string name="refresh">Refresh</string>
+    <string name="scnshot">ScreenShot</string>
+    <string name="size">Size</string>
+    <string name="mem_size">Ram</string>
+    <string name="set_background">Background</string>
+    <string name="ok">Ok</string>
+    <string name="accept">Accept</string>
+    <string name="refused">Refused</string>
+    <string name="warn">Warn</string>
+    <string name="hint">Hint</string>
+    <string name="exit">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="about">About</string>
+    <string name="screensize">Screen Size</string>
+    <string name="orientation">Screen Orition</string>
+    <string name="version">Version</string>
+    <string name="changelog">Change Log</string>
+    <string name="scaling_mode">Scalling Mode</string>
+    <string name="enableAntiAtial">Enable Anti-Aliasing</string>
+    <string name="switch_keypad">Switch Pad</string>
+</resources>

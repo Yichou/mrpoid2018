@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <WebView
+            android:id="@+id/webView1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toobar_height"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/statusbar_div"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_btn1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/holo_button_selector"
+                    android:contentDescription="@null"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_back" />
+
+                <ImageView
+                    android:id="@+id/iv_btn2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/holo_button_selector"
+                    android:contentDescription="@null"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_forward" />
+
+                <ImageView
+                    android:id="@+id/iv_btnHome"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/holo_button_selector"
+                    android:contentDescription="@null"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_home" />
+
+                <ImageView
+                    android:id="@+id/iv_btn3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/holo_button_selector"
+                    android:contentDescription="@null"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_brw_refresh" />
+
+                <ImageView
+                    android:id="@+id/iv_btn4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/holo_button_selector"
+                    android:contentDescription="@null"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_mark" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/progressbar" />
+
+</FrameLayout>

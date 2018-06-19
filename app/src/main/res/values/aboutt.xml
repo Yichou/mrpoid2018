@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_link">mrpoid@163.com</string>
+	<string name="terms_button">点击进入官方网站</string>
+	<string name="about_note">天使之翼.版权所有！\n© 2013-2015</string>
+    <string name="about_address">http://www.mrpej.com \n天使之翼.版权所有！\n© 2013-2015</string>
+    <string name="about_contact">邮箱</string>
+    <string name="about_teleca">关于版本更新</string>
+    <string name="about_jamendo">关于本软件</string>
+    <string name="ok">确定</string>
+    <string name="MENU_Star">设置</string> 
+    <string name="MENU_ABOUT">关于</string>
+    <string name="MENU_REFRESH">刷新</string>
+    <string name="MENU_FEEDBACK">反馈</string>
+    <string name="MENU_EXIT">退出</string>
+    <string name="MENU_DIRECTORY">包括目录</string>
+    <string name="MENU_SHARE">分享</string>
+    <string name="MENU_HELP">帮助</string>
+    <string name="MENU_GROUND">切换背景</string>
+    
+    <string name="terms">官方交流群:\n①.84233454\n②. 209533157\n③.178351517 \n</string>
+    <string name="terms_of_use">作者：\n\t程序：天使之翼\n\t美术：线条、安小瑾  \n\n简介：\n\tMrpoid 是一款安卓系统上专业的 mrp模拟器，支持 2.2~4.2.2系统，可以完美运行大部分 mrp。\nMrpoid 是我利用业余时间研发的，完全发自兴趣爱好，创作的初衷就是我们想知道 mrp 跑在安卓手机上会是什么样子。结果没有令我们失望，飞一般的感觉。不过 mrp 16位的像素在 android 视网膜屏上表现的有点低调，当然320*480分辨率一下的手机除外。mrpoid 运行效率远比 Dalvik 高，所以我们能不能基于 Mrpoid 创造出一个新的平台来呢，咱们拭目以待！^_^ \n
+    </string>
+    
+</resources>

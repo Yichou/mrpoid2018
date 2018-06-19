@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_style0" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="#30000000"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_marginTop="10dip"
+            android:layout_weight="1.0"
+            android:background="#80808080"
+            android:ems="10"
+            android:gravity="top|left"
+            android:inputType="textMultiLine"
+            android:padding="3dip"
+            android:textColor="@color/fg" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="15dip"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="100dip"
+                android:layout_height="40dip"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/btn_bg"
+                android:text="@string/cancel"
+                android:textColor="@drawable/btn_text" />
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="100dip"
+                android:layout_height="40dip"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/btn_bg"
+                android:text="@string/ok"
+                android:textColor="@drawable/btn_text" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- <include layout="@layout/navigation_toolbar" android:visibility="gone"/> -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <android.support.v4.widget.DrawerLayout
+            xmlns:app="http://schemas.android.com/apk/res/com.mrpoid.mrpliset"
+            android:id="@+id/drawer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="true"
+            android:fitsSystemWindows="true" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <com.mrpoid.mrplist.view.SlidingTabLayout
+                    android:id="@+id/sliding_tabs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:background="@color/app_colorPrimary" />
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/pager"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <!-- 左边侧滑 -->
+
+            <LinearLayout
+                android:id="@+id/start_drawer"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:background="#ffffff"
+                android:orientation="vertical" >
+
+                <include layout="@layout/navigation_list_header" />
+
+                <ListView
+                    android:id="@+id/listView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:cacheColorHint="@android:color/transparent" />
+            </LinearLayout>
+        </android.support.v4.widget.DrawerLayout>
+    </FrameLayout>
+
+</LinearLayout>

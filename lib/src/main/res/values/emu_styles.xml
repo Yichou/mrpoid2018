@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="emu_theme_light" parent="@style/Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="emu_theme_light_darkbar" parent="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+    <style name="emu_theme_light_bar" parent="@style/Theme.AppCompat.Light" />
+
+    <style name="emu_theme_black" parent="@style/Theme.AppCompat" />
+
+    <style name="emu_theme_black_notitle" parent="@style/Theme.AppCompat.NoActionBar" />
+</resources>

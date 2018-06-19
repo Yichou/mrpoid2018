@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="8dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_folder" />
+
+        <TextView
+            android:id="@+id/tvPath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_op"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btn_del"
+            android:layout_width="25dip"
+            android:layout_height="25dip"
+            android:background="@drawable/garbage"
+            android:focusable="false" />
+
+        <Button
+            android:id="@+id/btn_rename"
+            android:layout_width="25dip"
+            android:layout_height="25dip"
+            android:layout_marginLeft="100dip"
+            android:background="@drawable/_edit"
+            android:focusable="false" />
+    </LinearLayout>
+
+</LinearLayout>

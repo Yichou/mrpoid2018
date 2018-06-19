@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.mrpoid.mrpliset"
-      android:versionCode="2108"
-      android:versionName="2.3"
-      split="lib_slice_5_apk">
-</manifest>
