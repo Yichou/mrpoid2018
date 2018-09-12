@@ -3,9 +3,10 @@
 Mrpoid is create by yichou angle at about 2013, All the MRP emulators on the market are based on this projtct, If you like mrp just "git clone https://github.com/Yichou/mrpoid2018.git" come on and code it! 
 
 ##Here is the changelog
+##交流群:209533157
 
-### 2018-4-1
-项目转移到 AndroidStudio 编码似乎更爽了，但是依然会闪退
+### 2018
+项目转移到 AndroidStudio 
 
 <h3>Version 2.0</h3>
 <ol>
